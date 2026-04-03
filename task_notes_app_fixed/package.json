@@ -1,0 +1,17 @@
+{
+  "name": "task-notes-app",
+  "version": "1.0.0",
+  "description": "Task Notes Manager - Flutter Web App deployed on Render",
+  "private": true,
+  "scripts": {
+    "serve:web": "http-server ./build/web -p 8080 --cors -o false"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "flutter",
+    "task-manager",
+    "notes"
+  ]
+}
